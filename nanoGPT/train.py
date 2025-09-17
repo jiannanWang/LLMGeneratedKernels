@@ -21,6 +21,7 @@ import time
 import math
 import pickle
 from contextlib import nullcontext
+from datetime import datetime
 
 import numpy as np
 import torch
@@ -28,6 +29,11 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import init_process_group, destroy_process_group
 
 from model import GPTConfig, GPT
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 
 # -----------------------------------------------------------------------------
 # default config values designed to train a gpt2 (124M) on OpenWebText
@@ -329,7 +335,13 @@ while True:
             # I really dislike that this bloats the code and forces us to repeat code
             # looking at the source of that context manager, it just toggles this variable
             model.require_backward_grad_sync = (micro_step == gradient_accumulation_steps - 1)
+        if use_backendbench:
+            t_start = time.time()
+            BackendBench.enable(kernel_folder)
+            t_end = time.time()
+            backendbench_overhead += t_end - t_start
         with ctx:
+            logger.info(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}] CURRENTLY IN FORWARD PASS")
             if use_backendbench:
                 t_start = time.time()
                 BackendBench.enable(kernel_folder)
@@ -341,19 +353,25 @@ while True:
                 t_end = time.time()
                 forward_time = t_end - t_start
 
-            if use_backendbench:
-                t_start = time.time()
-                BackendBench.disable()
-                t_end = time.time()
-                backendbench_overhead += t_end - t_start
+            # if use_backendbench:
+            #     t_start = time.time()
+            #     BackendBench.disable()
+            #     t_end = time.time()
+            #     backendbench_overhead += t_end - t_start
 
             loss = loss / gradient_accumulation_steps # scale the loss to account for gradient accumulation
         # immediately async prefetch next batch while model is doing the forward pass on the GPU
         X, Y = get_batch('train')
         # backward pass, with gradient scaling if training in fp16
         loss_scale = scaler.scale(loss)
+        logger.info(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}] CURRENTLY IN BACKWARD PASS")
         with op_backward_tracer:
             loss_scale.backward()
+        # if use_backendbench:
+        #     t_start = time.time()
+        #     BackendBench.disable()
+        #     t_end = time.time()
+        #     backendbench_overhead += t_end - t_start
 
     if use_op_tracer:
         op_set.update(op_tracer.ops)

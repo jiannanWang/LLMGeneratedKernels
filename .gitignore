@@ -11,6 +11,4 @@
 env/
 .venv/
 BackendBench
-**/logs
-**/figs
 **/out-shakespeare-char
