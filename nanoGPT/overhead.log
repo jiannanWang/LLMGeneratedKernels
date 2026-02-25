@@ -1,0 +1,1642 @@
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+/home/jiannanwang/Workspace/BackendBenchExamples/.venv/lib/python3.12/site-packages/torch/library.py:381: UserWarning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_log_softmax(Tensor self, int dim, bool half_to_float) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: CUDA
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU_3.cpp:3798
+       new kernel: registered at /dev/null:138 (Triggered internally at /pytorch/aten/src/ATen/core/dispatch/OperatorEntry.cpp:218.)
+  self.m.impl(
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3812595220>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f381235da90>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f38123f6ff0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f38122a0260>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3812108e00>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f38121a5910>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f381200b410>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f38120b39b0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811f325a0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811f96a20>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811e7a1e0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811d06870>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811d8db80>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811c26000>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811cbd130>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811b55730>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811be8980>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811a78d70>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811adbe30>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811997fe0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811aad670>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811a47b90>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811ad0b90>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811b98e00>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f381191fa70>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+Error loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811cbfce0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+================================================================================
+BackendBench Overhead Analysis
+================================================================================
+
+Model config: n_layer=4, n_head=4, n_embd=128
+Input config: batch_size=12, block_size=64
+number of parameters: 0.80M
+
+Running benchmarks with 5 warmup and 20 benchmark iterations...
+
+--------------------------------------------------------------------------------
+1. BASELINE: Native PyTorch (no BackendBench)
+--------------------------------------------------------------------------------
+  Forward Pass:
+    Mean:   2.659 ms
+    Std:    0.003 ms
+    Min:    2.651 ms
+    Max:    2.664 ms
+    Median: 2.659 ms
+
+--------------------------------------------------------------------------------
+2. BACKENDBENCH: Enable/Disable each iteration (current approach)
+--------------------------------------------------------------------------------
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+  Forward Pass (with custom kernels):
+    Mean:   16.567 ms
+    Std:    22.810 ms
+    Min:    10.240 ms
+    Max:    115.947 ms
+    Median: 11.284 ms
+  BackendBench.enable():
+    Mean:   53.370 ms
+    Std:    0.712 ms
+    Min:    52.358 ms
+    Max:    55.511 ms
+    Median: 53.326 ms
+  BackendBench.disable():
+    Mean:   0.203 ms
+    Std:    0.052 ms
+    Min:    0.162 ms
+    Max:    0.343 ms
+    Median: 0.180 ms
+  Total (enable + forward + disable):
+    Mean:   70.140 ms
+    Std:    22.863 ms
+    Min:    64.509 ms
+    Max:    169.763 ms
+    Median: 64.685 ms
+
+--------------------------------------------------------------------------------
+3. BACKENDBENCH PERSISTENT: Enable once, run multiple iterations
+--------------------------------------------------------------------------------
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_implDirectoryBackend is not currently enabled
+
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+  Forward Pass (custom kernels, no re-registration):
+    Mean:   2.661 ms
+    Std:    0.001 ms
+    Min:    2.659 ms
+    Max:    2.663 ms
+    Median: 2.661 ms
+  BackendBench.enable():
+    Mean:   53.866 ms
+    Std:    0.000 ms
+    Min:    53.866 ms
+    Max:    53.866 ms
+    Median: 53.866 ms
+  BackendBench.disable():
+    Mean:   0.359 ms
+    Std:    0.000 ms
+    Min:    0.359 ms
+    Max:    0.359 ms
+    Median: 0.359 ms
+
+================================================================================
+CUSTOM OPERATORS ANALYSIS
+================================================================================
+
+--- Registered Custom Operators (83) ---
+  aten._log_softmax.default
+  aten._log_softmax_backward_data.default
+  aten._softmax.default
+  aten.abs.default
+  aten.add_.default
+  aten.addcmul.default
+  aten.addmm.default
+  aten.any.default
+  aten.bitwise_and.default
+  aten.bitwise_not.default
+  aten.bitwise_xor.default
+  aten.bmm.default
+  aten.clamp.default
+  aten.clamp_min.default
+  aten.cos.default
+  aten.div.Tensor
+  aten.div_.default
+  aten.elu.default
+  aten.eq.default
+  aten.erf.default
+  aten.exp.default
+  aten.fill_.default
+  aten.floor.default
+  aten.ge.default
+  aten.gelu.default
+  aten.gelu_backward.default
+  aten.gt.default
+  aten.hardsigmoid.default
+  aten.hardsigmoid_backward.default
+  aten.hardswish.default
+  aten.hardswish_.default
+  aten.hardswish_backward.default
+  aten.hardtanh.default
+  aten.hardtanh_.default
+  aten.hardtanh_backward.default
+  aten.isinf.default
+  aten.isnan.default
+  aten.le.default
+  aten.leaky_relu.default
+  aten.leaky_relu_.default
+  aten.leaky_relu_backward.default
+  aten.log2.default
+  aten.logical_and_.default
+  aten.lt.default
+  aten.masked_fill.default
+  aten.max.default
+  aten.maximum.default
+  aten.mean.default
+  aten.min.default
+  aten.minimum.default
+  aten.mm.default
+  aten.mse_loss.default
+  aten.mse_loss_backward.default
+  aten.mul.Tensor
+  aten.mul_.default
+  aten.ne.default
+  aten.neg.default
+  aten.pow.default
+  aten.reciprocal.default
+  aten.relu.default
+  aten.relu_.default
+  aten.round.default
+  aten.rsqrt.default
+  aten.rsub.default
+  aten.sgn.default
+  aten.sigmoid.default
+  aten.sigmoid_.default
+  aten.sigmoid_backward.default
+  aten.silu.default
+  aten.silu_.default
+  aten.silu_backward.default
+  aten.sin.default
+  aten.sqrt.default
+  aten.std.default
+  aten.sub.default
+  aten.sum.default
+  aten.tanh.default
+  aten.tanh_backward.default
+  aten.threshold_backward.default
+  aten.tril.default
+  aten.triu.default
+  aten.var_mean.default
+  aten.where.default
+
+--- Custom Operators Used in Forward Pass (3) ---
+  ✓ aten._log_softmax.default
+  ✓ aten.gelu.default
+  ✓ aten.mm.default
+
+--- Custom Operators NOT Used (80) ---
+  ✗ aten._log_softmax_backward_data.default
+  ✗ aten._softmax.default
+  ✗ aten.abs.default
+  ✗ aten.add_.default
+  ✗ aten.addcmul.default
+  ✗ aten.addmm.default
+  ✗ aten.any.default
+  ✗ aten.bitwise_and.default
+  ✗ aten.bitwise_not.default
+  ✗ aten.bitwise_xor.default
+  ✗ aten.bmm.default
+  ✗ aten.clamp.default
+  ✗ aten.clamp_min.default
+  ✗ aten.cos.default
+  ✗ aten.div.Tensor
+  ✗ aten.div_.default
+  ✗ aten.elu.default
+  ✗ aten.eq.default
+  ✗ aten.erf.default
+  ✗ aten.exp.default
+  ✗ aten.fill_.default
+  ✗ aten.floor.default
+  ✗ aten.ge.default
+  ✗ aten.gelu_backward.default
+  ✗ aten.gt.default
+  ✗ aten.hardsigmoid.default
+  ✗ aten.hardsigmoid_backward.default
+  ✗ aten.hardswish.default
+  ✗ aten.hardswish_.default
+  ✗ aten.hardswish_backward.default
+  ✗ aten.hardtanh.default
+  ✗ aten.hardtanh_.default
+  ✗ aten.hardtanh_backward.default
+  ✗ aten.isinf.default
+  ✗ aten.isnan.default
+  ✗ aten.le.default
+  ✗ aten.leaky_relu.default
+  ✗ aten.leaky_relu_.default
+  ✗ aten.leaky_relu_backward.default
+  ✗ aten.log2.default
+  ✗ aten.logical_and_.default
+  ✗ aten.lt.default
+  ✗ aten.masked_fill.default
+  ✗ aten.max.default
+  ✗ aten.maximum.default
+  ✗ aten.mean.default
+  ✗ aten.min.default
+  ✗ aten.minimum.default
+  ✗ aten.mse_loss.default
+  ✗ aten.mse_loss_backward.default
+  ✗ aten.mul.Tensor
+  ✗ aten.mul_.default
+  ✗ aten.ne.default
+  ✗ aten.neg.default
+  ✗ aten.pow.default
+  ✗ aten.reciprocal.default
+  ✗ aten.relu.default
+  ✗ aten.relu_.default
+  ✗ aten.round.default
+  ✗ aten.rsqrt.default
+  ✗ aten.rsub.default
+  ✗ aten.sgn.default
+  ✗ aten.sigmoid.default
+  ✗ aten.sigmoid_.default
+  ✗ aten.sigmoid_backward.default
+  ✗ aten.silu.default
+  ✗ aten.silu_.default
+  ✗ aten.silu_backward.default
+  ✗ aten.sin.default
+  ✗ aten.sqrt.default
+  ✗ aten.std.default
+  ✗ aten.sub.default
+  ✗ aten.sum.default
+  ✗ aten.tanh.default
+  ✗ aten.tanh_backward.default
+  ✗ aten.threshold_backward.defaultError loading clamp from clamp_implementation_v1.py: expected an indented block after 'else' statement on line 111 (clamp_implementation_v1.py, line 111)
+Could not find PyTorch operation for gelu_backward.grad_input
+Error loading hardsigmoid_backward from hardsigmoid_backward_implementation_v1.py: expected an indented block after 'if' statement on line 142 (hardsigmoid_backward_implementation_v1.py, line 143)
+Error loading maximum from maximum_implementation_v1.py: expected an indented block after 'if' statement on line 201 (maximum_implementation_v1.py, line 202)
+Error loading mean from mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 258) (mean_implementation_v1.py, line 177)
+Error loading min from min_implementation_v1.py: unterminated triple-quoted string literal (detected at line 261) (min_implementation_v1.py, line 149)
+Error loading mm from mm_implementation_v1.py: unterminated triple-quoted string literal (detected at line 178) (mm_implementation_v1.py, line 132)
+Could not find PyTorch operation for mse_loss.out
+Error loading neg from neg_implementation_v1.py: unterminated triple-quoted string literal (detected at line 135) (neg_implementation_v1.py, line 88)
+Error loading pow from pow_implementation_v1.py: unterminated triple-quoted string literal (detected at line 113) (pow_implementation_v1.py, line 83)
+Error loading reciprocal from reciprocal_implementation_v1.py: unterminated triple-quoted string literal (detected at line 165) (reciprocal_implementation_v1.py, line 129)
+Error loading relu from relu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 126) (relu_implementation_v1.py, line 84)
+Error loading relu_ from relu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 92) (relu__implementation_v1.py, line 68)
+Error loading round from round_implementation_v1.py: unterminated triple-quoted string literal (detected at line 138) (round_implementation_v1.py, line 110)
+Error loading rsqrt from rsqrt_implementation_v1.py: invalid character '•' (U+2022) (rsqrt_implementation_v1.py, line 75)
+Error loading sgn from sgn_implementation_v1.py: unterminated triple-quoted string literal (detected at line 147) (sgn_implementation_v1.py, line 116)
+Error loading sigmoid from sigmoid_implementation_v1.py: unterminated triple-quoted string literal (detected at line 111) (sigmoid_implementation_v1.py, line 88)
+Error loading sigmoid_ from sigmoid__implementation_v1.py: unterminated triple-quoted string literal (detected at line 106) (sigmoid__implementation_v1.py, line 89)
+Error loading sigmoid_backward from sigmoid_backward_implementation_v1.py: unindent does not match any outer indentation level (sigmoid_backward_implementation_v1.py, line 126)
+Error loading silu from silu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 131) (silu_implementation_v1.py, line 106)
+Error loading silu_ from silu__implementation_v1.py: unterminated triple-quoted string literal (detected at line 221) (silu__implementation_v1.py, line 183)
+Error loading silu_backward from silu_backward_implementation_v1.py: unterminated triple-quoted string literal (detected at line 155) (silu_backward_implementation_v1.py, line 103)
+Error loading sin from sin_implementation_v1.py: unterminated triple-quoted string literal (detected at line 150) (sin_implementation_v1.py, line 76)
+Error loading sqrt from sqrt_implementation_v1.py: unmatched ')' (sqrt_implementation_v1.py, line 74)
+Error loading std from std_implementation_v1.py: unterminated triple-quoted string literal (detected at line 248) (std_implementation_v1.py, line 155)
+Error loading sub from sub_implementation_v1.py: invalid character '–' (U+2013) (sub_implementation_v1.py, line 99)
+Error loading tanh from tanh_implementation_v1.py: invalid character '–' (U+2013) (tanh_implementation_v1.py, line 82)
+Error loading tanh_backward from tanh_backward_implementation_v1.py: unindent does not match any outer indentation level (tanh_backward_implementation_v1.py, line 142)
+Error loading tril from tril_implementation_v1.py: invalid decimal literal (tril_implementation_v1.py, line 74)
+Error loading triu from triu_implementation_v1.py: unterminated triple-quoted string literal (detected at line 153) (triu_implementation_v1.py, line 94)
+Error loading var_mean from var_mean_implementation_v1.py: unterminated triple-quoted string literal (detected at line 298) (var_mean_implementation_v1.py, line 227)
+Error loading where from where_implementation_v1.py: unterminated triple-quoted string literal (detected at line 195) (where_implementation_v1.py, line 127)
+Could not register <bound method _install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim.default of <op_gelu_backward._install_aten_gelu_backward_positional_shim.<locals>._GeluBackwardShim object at 0x7f3811adade0>>: 'function' object has no attribute '_schema'
+Could not register <bound method _maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper.default of <op_mse_loss._maybe_patch_aten_mse_loss_accept_str.<locals>._MSELossPacketWrapper object at 0x7f38125acfe0>>: 'function' object has no attribute '_schema'
+
+  ✗ aten.tril.default
+  ✗ aten.triu.default
+  ✗ aten.var_mean.default
+  ✗ aten.where.default
+
+--- Native Operators (no custom kernel) (13) ---
+  • aten.arange.start
+  • aten.embedding.default
+  • aten.add.Tensor
+  • aten.native_layer_norm.default
+  • aten._to_copy.default
+  • aten.t.default
+  • aten.view.default
+  • aten._unsafe_view.default
+  • aten.split.Tensor
+  • aten.transpose.int
+  • aten._scaled_dot_product_flash_attention.default
+  • aten.detach.default
+  • aten.nll_loss_forward.default
+
+================================================================================
+Custom kernel coverage: 3/16 operators (18.8%)
+================================================================================
+
+
+================================================================================
+OVERHEAD ANALYSIS SUMMARY
+================================================================================
+
+1. Baseline forward pass:              2.659 ms
+2. BackendBench (per-iter enable):
+   - Forward with custom kernels:      16.567 ms
+   - enable() overhead:                53.370 ms
+   - disable() overhead:               0.203 ms
+   - Total per iteration:              70.140 ms
+3. BackendBench (persistent enable):
+   - Forward with custom kernels:      2.661 ms
+   - enable() overhead:                53.866 ms
+   - disable() overhead:               0.359 ms
+
+--- OVERHEAD BREAKDOWN ---
+
+Registration Overhead (enable + disable): 53.573 ms (79.4% of total overhead)
+Kernel Execution Overhead:                0.002 ms (0.0% of total overhead)
+Total Overhead:                           67.481 ms
+
+Slowdown factors:
+  - With per-iter registration:  26.38x slower
+  - With persistent registration: 1.00x slower
+
+================================================================================
+PER-OPERATOR PROFILING (8 Custom Operators Used in Forward Pass)
+================================================================================
+
+--- Native PyTorch Operators ---
+
+================================================================================
+Custom Operators Used in Forward Pass (3 operators)
+================================================================================
+Operator                                            Total(ms)    Count    Avg(ms)
+--------------------------------------------------------------------------------
+aten.mm.default                                        39.260       17     2.3094
+aten.gelu.default                                       9.247        4     2.3118
+aten._log_softmax.default                               2.258        1     2.2576
+--------------------------------------------------------------------------------
+Total                                                  50.765
+================================================================================
+
+--- BackendBench Custom Kernels ---
+Enabling DirectoryBackend
+Successfully registered 154 custom operators
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from gelu_kernel_impl
+Hello from _log_softmax_kernel_impl
+DirectoryBackend disabled
+
+================================================================================
+Custom Operators Used in Forward Pass (3 operators)
+================================================================================
+Operator                                            Total(ms)    Count    Avg(ms)
+--------------------------------------------------------------------------------
+aten.mm.default                                        39.240       17     2.3082
+aten.gelu.default                                       9.288        4     2.3220
+aten._log_softmax.default                               2.262        1     2.2618
+--------------------------------------------------------------------------------
+Total                                                  50.790
+================================================================================
+
+================================================================================
+OPERATOR COMPARISON (Custom vs Native) - 8 Custom Operators Only
+================================================================================
+
+Operator                                           Native(ms) Custom(ms)   Slowdown Impact(ms)
+--------------------------------------------------------------------------------------------
+aten.gelu.default                                      2.3118     2.3220       1.00x      0.041
+aten._log_softmax.default                              2.2576     2.2618       1.00x      0.004
+aten.mm.default                                        2.3094     2.3082       1.00x     -0.020
+--------------------------------------------------------------------------------------------
+TOTAL (8 custom ops)                                  50.7645    50.7896       1.00x      0.025
+
+================================================================================
+CONCLUSIONS
+================================================================================
+
+The REGISTRATION OVERHEAD (enable/disable) is the PRIMARY cause of slowdown.
+
+RECOMMENDATIONS:
+1. Enable BackendBench once at the start of training, not per-iteration
+2. Modify train.py to call BackendBench.enable() before the training loop
+3. Only call BackendBench.disable() when training completes
+
+Code change suggestion for train.py:
+    # Before training loop:
+    if use_backendbench:
+        BackendBench.enable(kernel_folder)
+
+    # Training loop (remove enable/disable from inside):
+    while True:
+        for micro_step in range(gradient_accumulation_steps):
+            with ctx:
+                logits, loss = model(X, Y)  # No enable/disable here
+        ...
+
+    # After training:
+    if use_backendbench:
+        BackendBench.disable()
+
+
+================================================================================

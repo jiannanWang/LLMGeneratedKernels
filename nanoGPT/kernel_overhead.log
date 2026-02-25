@@ -1,0 +1,241 @@
+/home/jiannanwang/Workspace/BackendBenchExamples/nanoGPT/analyze_kernel_overhead.py:388: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  print(f"    Native split storage shared: {splits[0].storage().data_ptr() == x.storage().data_ptr()}")
+================================================================================
+COMPREHENSIVE KERNEL OVERHEAD ANALYSIS
+================================================================================
+
+This analysis compares custom BackendBench kernels with PyTorch eager mode
+to identify the root causes of kernel execution overhead.
+
+
+================================================================================
+ANALYZING: aten.view (4.96x slower)
+================================================================================
+
+--- Small: (12, 64, 128) -> (12, 8192) ---
+  Native PyTorch: 0.0064 ± 0.0005 ms
+  Custom Kernel:  0.0234 ± 0.0098 ms
+  Slowdown:       3.67x
+
+  Overhead Breakdown:
+    Argument parsing: 0.0001 ms
+    Validation:       0.0002 ms
+    Memory allocation: 0.0031 ms
+    Kernel execution: 0.0056 ms
+    Native view:      0.0031 ms (baseline)
+
+  KEY INSIGHT: view() is a metadata-only operation in PyTorch.
+  The custom kernel copies data, which is fundamentally wrong for view.
+
+--- Medium: (12, 256, 512) -> (12, 131072) ---
+  Native PyTorch: 0.0066 ± 0.0030 ms
+  Custom Kernel:  0.0238 ± 0.0104 ms
+  Slowdown:       3.62x
+
+  Overhead Breakdown:
+    Argument parsing: 0.0001 ms
+    Validation:       0.0002 ms
+    Memory allocation: 0.0031 ms
+    Kernel execution: 0.0087 ms
+    Native view:      0.0031 ms (baseline)
+
+  KEY INSIGHT: view() is a metadata-only operation in PyTorch.
+  The custom kernel copies data, which is fundamentally wrong for view.
+
+--- Large: (12, 1024, 768) -> (12, 786432) ---
+  Native PyTorch: 0.0065 ± 0.0023 ms
+  Custom Kernel:  0.0290 ± 0.0121 ms
+  Slowdown:       4.46x
+
+  Overhead Breakdown:
+    Argument parsing: 0.0001 ms
+    Validation:       0.0002 ms
+    Memory allocation: 0.0031 ms
+    Kernel execution: 0.0234 ms
+    Native view:      0.0031 ms (baseline)
+
+  KEY INSIGHT: view() is a metadata-only operation in PyTorch.
+  The custom kernel copies data, which is fundamentally wrong for view.
+
+================================================================================
+ANALYZING: aten._unsafe_view (3.69x slower)
+================================================================================
+
+--- Small: (12, 64, 128) -> (12, 8192) ---
+  Native PyTorch: 0.0078 ± 0.0039 ms
+  Custom Kernel:  0.0212 ± 0.0070 ms
+  Slowdown:       2.70x
+
+--- Medium: (12, 256, 512) -> (12, 131072) ---
+  Native PyTorch: 0.0078 ± 0.0030 ms
+  Custom Kernel:  0.0218 ± 0.0069 ms
+  Slowdown:       2.80x
+
+  KEY INSIGHT: Same as view() - metadata only in PyTorch,
+  but the custom kernel copies all data.
+
+================================================================================
+ANALYZING: aten.split.Tensor (5.39x slower)
+================================================================================
+
+--- nanoGPT QKV split: (12, 64, 384) -> 3x (12, 64, 128) ---
+  Native PyTorch: 0.0099 ± 0.0043 ms
+  Custom Kernel:  0.0682 ± 0.0113 ms
+  Slowdown:       6.89x
+
+  Overhead Breakdown:
+    Native split (metadata only): 0.0046 ms
+    Native split storage shared: True
+
+  KEY INSIGHT: split() returns views, no data copy.
+  The custom kernel performs actual data copies for each split.
+
+================================================================================
+ANALYZING: aten.add.Tensor (2.76x slower)
+================================================================================
+
+--- Small: (12, 64, 128) ---
+  Native PyTorch: 0.0109 ± 0.0044 ms
+  Custom Kernel:  0.0342 ± 0.0126 ms
+  Slowdown:       3.15x
+
+  Overhead Breakdown:
+    Argument parsing: 0.000026 ms
+    Broadcast check:  0.003476 ms
+    Contiguous call:  0.003131 ms
+    Memory allocation: 0.0031 ms
+    Triton kernel:    0.0057 ms
+    Native torch.add: 0.0058 ms
+
+--- Medium: (12, 256, 512) ---
+  Native PyTorch: 0.0117 ± 0.0036 ms
+  Custom Kernel:  0.0337 ± 0.0124 ms
+  Slowdown:       2.87x
+
+  Overhead Breakdown:
+    Argument parsing: 0.000026 ms
+    Broadcast check:  0.003533 ms
+    Contiguous call:  0.003121 ms
+    Memory allocation: 0.0031 ms
+    Triton kernel:    0.0106 ms
+    Native torch.add: 0.0105 ms
+
+--- Large: (12, 1024, 768) ---
+  Native PyTorch: 0.0349 ± 0.0048 ms
+  Custom Kernel:  0.0552 ± 0.0120 ms
+  Slowdown:       1.58x
+
+  Overhead Breakdown:
+    Argument parsing: 0.000026 ms
+    Broadcast check:  0.003544 ms
+    Contiguous call:  0.003122 ms
+    Memory allocation: 0.0032 ms
+    Triton kernel:    0.0323 ms
+    Native torch.add: 0.0327 ms
+
+================================================================================
+ANALYZING: aten.mm (1.36x slower)
+================================================================================
+
+--- Small: (768, 128) x (128, 512) ---
+  Native PyTorch (cuBLAS): 0.0172 ± 0.0088 ms
+  Custom Triton Kernel:    0.0316 ± 0.0106 ms
+  Slowdown:                1.84x
+
+--- Medium: (768, 512) x (512, 768) ---
+  Native PyTorch (cuBLAS): 0.0182 ± 0.0082 ms
+  Custom Triton Kernel:    0.0341 ± 0.0115 ms
+  Slowdown:                1.87x
+
+--- Large: (768, 768) x (768, 768) ---
+  Native PyTorch (cuBLAS): 0.0182 ± 0.0063 ms
+  Custom Triton Kernel:    0.0353 ± 0.0094 ms
+  Slowdown:                1.94x
+
+  NOTE: For mm, the Triton kernel is reasonably optimized
+  but cuBLAS has years of optimization for specific GPU architectures.
+
+================================================================================
+ANALYZING: aten.gelu (1.76x slower)
+================================================================================
+
+--- Small: (12, 64, 512) ---
+  Native PyTorch: 0.0111 ± 0.0035 ms
+  Custom Kernel:  0.0212 ± 0.0093 ms
+  Slowdown:       1.90x
+
+--- Medium: (12, 256, 2048) ---
+  Native PyTorch: 0.0178 ± 0.0037 ms
+  Custom Kernel:  0.0256 ± 0.0067 ms
+  Slowdown:       1.44x
+
+================================================================================
+SUMMARY: ROOT CAUSES OF KERNEL OVERHEAD
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         OVERHEAD CATEGORIES                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  1. SEMANTIC MISMATCH (view, _unsafe_view, split) - CRITICAL                │
+│     ────────────────────────────────────────────────────────────────────    │
+│     • PyTorch: These are METADATA-ONLY operations (zero-copy)               │
+│     • Custom:  Kernels COPY DATA, fundamentally changing semantics          │
+│     • Impact:  ~5x slowdown, memory bandwidth wasted                        │
+│     • Fix:     Return views instead of launching copy kernels               │
+│                                                                             │
+│  2. PYTHON WRAPPER OVERHEAD (all operations) - MODERATE                     │
+│     ────────────────────────────────────────────────────────────────────    │
+│     • Argument parsing with isinstance(), dict lookups                      │
+│     • Device checks and transfers (if not input.is_cuda: ...)               │
+│     • Contiguity checks (.contiguous() calls)                               │
+│     • Validation logic in Python                                            │
+│     • Impact:  ~0.01-0.05 ms per call (significant for small tensors)       │
+│     • Fix:     Move to C++/Cython, or use @torch.jit.script                 │
+│                                                                             │
+│  3. MEMORY ALLOCATION (all operations) - MODERATE                           │
+│     ────────────────────────────────────────────────────────────────────    │
+│     • torch.empty() allocates new memory each call                          │
+│     • PyTorch can reuse memory pools; custom kernels don't                  │
+│     • Impact:  ~0.01-0.02 ms per allocation                                 │
+│     • Fix:     Use output tensor reuse, work with PyTorch allocator         │
+│                                                                             │
+│  4. TRITON KERNEL LAUNCH OVERHEAD - LOW TO MODERATE                         │
+│     ────────────────────────────────────────────────────────────────────    │
+│     • Grid calculation in Python                                            │
+│     • Kernel dispatch through Triton runtime                                │
+│     • First-call JIT compilation (amortized over many calls)                │
+│     • Impact:  ~0.005-0.01 ms per launch                                    │
+│     • Fix:     Kernel fusion, persistent kernels                            │
+│                                                                             │
+│  5. ALGORITHMIC EFFICIENCY (mm, gelu, etc.) - VARIES                        │
+│     ────────────────────────────────────────────────────────────────────    │
+│     • Triton kernels may not match cuBLAS/cuDNN optimization                │
+│     • Block sizes may not be optimal for specific GPU                       │
+│     • Missing advanced optimizations (tensor cores, async copy)             │
+│     • Impact:  1.3-2x for compute-bound ops                                 │
+│     • Fix:     Tune block sizes, use autotune, leverage tensor cores        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         RECOMMENDATIONS                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  PRIORITY 1 - Fix Semantic Mismatches:                                      │
+│  • view, _unsafe_view: Return input.view(shape) directly                    │
+│  • split: Return input.split() directly                                     │
+│  • These should NOT launch GPU kernels at all                               │
+│                                                                             │
+│  PRIORITY 2 - Reduce Python Overhead:                                       │
+│  • Use @torch.jit.script for wrapper functions                              │
+│  • Avoid isinstance() checks in hot path                                    │
+│  • Cache device checks                                                      │
+│                                                                             │
+│  PRIORITY 3 - Optimize Compute Kernels:                                     │
+│  • Use Triton autotune for block sizes                                      │
+│  • Enable tensor cores for mm operations                                    │
+│  • Fuse elementwise operations where possible                               │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+

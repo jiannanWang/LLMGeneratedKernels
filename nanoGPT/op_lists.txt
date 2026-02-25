@@ -1,0 +1,36 @@
+Forward ops:
+aten.nll_loss_forward.default
+aten.mm.default
+aten._unsafe_view.default
+aten.arange.start
+aten._scaled_dot_product_flash_attention.default
+aten.native_layer_norm.default
+aten.split.Tensor
+aten.gelu.default
+aten.embedding.default
+aten.transpose.int
+aten._log_softmax.default
+aten.view.default
+aten.t.default
+aten.detach.default
+aten._to_copy.default
+aten.add.Tensor
+
+Backward ops:
+aten.mm.default
+aten.div.Tensor
+aten.ones_like.default
+aten.native_layer_norm_backward.default
+aten.cat.default
+aten.sum.dim_IntList
+aten.nll_loss_backward.default
+aten._log_softmax_backward_data.default
+aten.transpose.int
+aten.gelu_backward.default
+aten.view.default
+aten.t.default
+aten.detach.default
+aten.embedding_dense_backward.default
+aten._to_copy.default
+aten._scaled_dot_product_flash_attention_backward.default
+aten.add.Tensor
